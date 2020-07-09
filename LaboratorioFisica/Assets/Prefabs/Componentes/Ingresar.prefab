@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1588881632195162198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588881632195162196}
+  - component: {fileID: 1588881632195162199}
+  - component: {fileID: 1588881632195162197}
+  - component: {fileID: 1588881632195162202}
+  - component: {fileID: 1588881632195162203}
+  m_Layer: 0
+  m_Name: Ingresar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1588881632195162196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588881632195162198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.26367056, y: -0.12705725, z: 1.9808513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1588881632195162199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588881632195162198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03213005fc4a5f341b8d9d0cd1d801a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  valor: {fileID: 0}
+  voltaje: {fileID: 0}
+  intensidad: {fileID: 0}
+  numeroV: {fileID: 0}
+  numA: {fileID: 0}
+  numR: {fileID: 0}
+  numeros: {fileID: 0}
+  intensidadCorriente: {fileID: 0}
+  num: 
+  vol: 
+  amp: 
+--- !u!114 &1588881632195162197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588881632195162198}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2394260b6466e314c8b51fa101164c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempo: 0
+  textoTiempo: {fileID: 0}
+--- !u!114 &1588881632195162202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588881632195162198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433c27dac5142d640867ca1f2bdf6fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resistenciaC: 10000
+  textoTiempo: {fileID: 0}
+  textoVoltaje: {fileID: 0}
+  textoCorriente: {fileID: 0}
+  textoGeneral: {fileID: 0}
+  voltajeC: 0
+  corrienteI: 0
+  capacitor: 0.0022
+--- !u!114 &1588881632195162203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588881632195162198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ace82c33d992444843ebb6bb1bd739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resistenciaC: 10000
+  textoTiempo: {fileID: 0}
+  textoVoltaje: {fileID: 0}
+  textoCorriente: {fileID: 0}
+  textoGeneral: {fileID: 0}
+  voltajeC: 0
+  corrienteI: 0
+  capacitor: 0.0022
